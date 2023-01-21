@@ -1,0 +1,161 @@
+.main {
+    border: black solid;
+    height: 5000px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.content {
+    display: flex;
+}
+.imgs {
+    border: black solid;
+    height: 2600px;
+    width: 300px; 
+    margin-top: 200px;
+}
+h1 {
+    text-align: center;
+
+}
+.parot1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+h3 {
+    text-align: center;
+
+}
+.line {
+    border: black solid 1px;
+}
+.rite {
+    border: black solid;
+    height: 4600px;
+    width: 100%;
+    margin-top: 200px;
+}
+.cmon{
+    font-size: 24px;
+    text-align: center;
+}
+tr {
+    gap: 50px;
+    display: flex;
+    margin-left: 50px;
+    font-size: 19.9px;
+}
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(206, 206, 63);
+  }
+  header h1 {
+    margin-bottom: 10px;
+  }
+  .wrapper {
+    display: flex;
+    height: 100vh;
+    width: 600px;
+    height: 400px;
+    margin: 10px auto;
+    margin-top: 45px;
+  }
+  
+  .left,
+  .right {
+    flex: 1 1 auto;
+    border: 1px solid dimgray;
+    max-width: 50%;
+  }
+  
+  .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left > img {
+    width: 100%;
+    height: auto;
+    pointer-events: none;
+  }
+  
+  .right {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .inner {
+    position: absolute;
+    width: 400%;
+    height: 400%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .inner > img {
+    width: 100%;
+    height: auto;
+  }
+  @media only screen and (max-width: 1000px) {
+
+
+    .cmon {
+        font-size: 34px;
+    }
+    tr {
+        gap: 50px;
+        display: flex;
+        margin-left: 50px;
+        margin-bottom: 15px;
+        font-size: 30px;
+    }
+    .rite {
+        border: black solid;
+        height: 5200px;
+        width: 100%;
+        margin-top: 200px;
+    }    
+    .main {
+        border: black solid;
+        height: 5500px;
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
